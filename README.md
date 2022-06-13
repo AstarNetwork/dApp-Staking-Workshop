@@ -13,4 +13,4 @@ It shows how chain-extension will be implemented in **Astar**. \
 It was inspired by the OpenBrush implementation of [Pallet-Asset chain-extension](https://github.com/Supercolony-net/openbrush-contracts/blob/feature/psp22-extension-pallet-assets/contracts/token/psp22/utils/pallet_assets.rs#L35) [link refers to a PR so it migth change]
 
 ##### Deploy the contracts
-In order to deploy the contract locally you should use [swanky-node]([https://ink.substrate.io/macros-attributes/chain-extension#details-handle_status](https://github.com/AstarNetwork/swanky-node)) that integrate the chain-extensions of these exemple contracts
+In order to deploy the contract locally you should use [swanky-node](https://github.com/AstarNetwork/swanky-node) that integrate the chain-extensions of these exemple contracts
