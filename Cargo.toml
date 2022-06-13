@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "dapps-staking-chain-extension-contract",
+    "staking-contract",
+    "dapps-staking-crate"
+]
