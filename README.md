@@ -1,4 +1,4 @@
-# dApp-Staking Chain Extension Workshop
+# dApps-Staking Chain Extension Workshop
 This repository contains two ink! example contract that was shown on the Workshop of Polkadot North America Hackathon
 
 ### Example 1: Use custom environment & ink! macros
