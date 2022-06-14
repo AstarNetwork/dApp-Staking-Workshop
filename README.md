@@ -8,7 +8,7 @@ It relies on [ink! chain-extension documentation](https://ink.substrate.io/macro
 
 ### Example 2: Use chain-extension builder
 Folders: `dapps-staking-crate` & `staking-contract` \
-This examples use the chain-extension builder directly in order to avoid using custom environment and to separate the chain-extension crate & the smart-contract. \
+This examples use the chain-extension builder directly in order to avoid using custom environment. \
 It shows how chain-extension will be implemented in **Astar**. \
 It was inspired by the OpenBrush implementation of [Pallet-Asset chain-extension](https://github.com/Supercolony-net/openbrush-contracts/blob/feature/psp22-extension-pallet-assets/contracts/token/psp22/utils/pallet_assets.rs#L35) [link refers to a PR so it migth change]
 
