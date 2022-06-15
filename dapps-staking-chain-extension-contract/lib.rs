@@ -11,7 +11,7 @@ pub trait DappsStakingExt {
     #[ink(extension = 3401, returns_result = false, handle_status = false)]
     fn read_current_era() -> u32;
 
-    #[ink(extension = 3402, handle_status = false)]
+    #[ink(extension = 3402)]
     fn read_era_info(
         era: u32,
     ) -> Result<EraInfo<<ink_env::DefaultEnvironment as Environment>::Balance>, DSError>;
