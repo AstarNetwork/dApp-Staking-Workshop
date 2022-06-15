@@ -106,12 +106,6 @@ mod dapp_staking_extension {
     #[ink(storage)]
     pub struct DappsStakingExtension {}
 
-    #[ink(event)]
-    pub struct CurrentEraUpdated {
-        #[ink(topic)]
-        new: u32,
-    }
-
     impl DappsStakingExtension {
         #[ink(constructor)]
         pub fn new() -> Self {
@@ -120,10 +114,8 @@ mod dapp_staking_extension {
 
         /// Calls current_era() in the pallet-dapps-staking
         #[ink(message)]
-        pub fn read_current_era(&self) -> Result<u32, DSError> {
-            let era = self.env().extension().read_current_era();
-            self.env().emit_event(CurrentEraUpdated { new: era });
-            Ok(era)
+        pub fn read_current_era(&self) -> u32 {
+             self.env().extension().read_current_era()
         }
 
         /// Calls general_era_info() in the pallet-dapps-staking

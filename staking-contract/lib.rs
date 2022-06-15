@@ -4,7 +4,7 @@ use ink_lang as ink;
 
 #[ink::contract]
 pub mod staking {
-    use dapps_staking::{DSError, DappsStaking, EraInfo};
+    use dapps_staking::*;
 
     #[derive(scale::Encode, scale::Decode)]
     #[cfg_attr(feature = "std", derive(scale_info::TypeInfo))]

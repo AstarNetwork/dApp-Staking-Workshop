@@ -18,10 +18,7 @@ scale-info = { version = "2", default-features = false, features = ["derive"], o
 [lib]
 name = "dapps_staking"
 path = "lib.rs"
-crate-type = [
-    # Used for normal contract Wasm blobs.
-    "rlib"
-]
+crate-type = ["rlib"]
 
 [features]
 default = ["std"]
